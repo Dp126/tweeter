@@ -1,0 +1,10 @@
+class PagesController < ApplicationController
+
+	def hi
+	end
+
+	def another
+		@data = 'This is a message'
+	end
+
+end
